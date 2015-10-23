@@ -3,4 +3,11 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body { padding-top: 70px; }
+   .navbar-brand
+   {
+       position: absolute;
+       width: 100%;
+       left: 0;
+       text-align: center;
+       mar
+   }
