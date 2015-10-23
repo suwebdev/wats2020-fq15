@@ -6,7 +6,7 @@
 .header {
   text-align: center;
 }
-
+/*
 .collapse .navbar-collapse {
   display: inline-block;
   float:none;
@@ -14,11 +14,17 @@
   text-align: center;
 
 }
-
+*/
 .navbar.center .navbar-inner {
     text-align: center;
 }
 .navbar.center .navbar-inner .nav {
     float: none;
     display:inline-block;
+}
+
+ul.nav.nav-bar nav {
+  height: auto;
+  width: 500px;
+
 }
