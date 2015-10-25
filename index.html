@@ -51,6 +51,24 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+    
+    <title>Search Box</title>
+    <meta name="box" content="NOINDEX, NOFOLLOW"/>
+    <!--JAVASCRIPT to clear search text when field is clicked-->
+    <script type="text/javascript">
+        window.onload=function(){
+            //get submit button
+            var submitbutton = document.getElementById("tfq");
+            //add listener to submit button
+            if(submitbutton.addEventListener){
+                submitbutton.addEventlistener("click",function(){
+                    if(submitbutton.value == 'Search'){
+                        submitbutton.value = " ";
+                    }
+                })
+            }
+        }
+    </script>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
