@@ -4,7 +4,23 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	font-family: 'Lora', serif;
+}
 
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.media {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.summary {
+	max-width: 45em;
+	font-size: 16px;
+}
 
 
 
